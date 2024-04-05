@@ -1,0 +1,25 @@
+.logo {
+    display: flex;
+    align-items: center;
+    color: #000;
+    width: 195px;
+    height: 39px;
+
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+    
+    &__svg {
+        margin-right: 8px;
+    }
+
+    &__span{
+        font-family: var(--font-family);
+font-weight: 500;
+font-size: 10px;
+letter-spacing: -0.01em;
+color: #838383;
+    }
+}
