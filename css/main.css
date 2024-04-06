@@ -18,6 +18,11 @@ button {
   cursor: pointer;
 }
 
+body {
+  display: flex;
+  background: #fafbff;
+}
+
 :root {
   --font-family: "Poppins", sans-serif;
 }
@@ -25,6 +30,8 @@ button {
 .header {
   width: 306px;
   height: 1198px;
+  box-shadow: 0 10px 60px 0 rgba(226, 236, 249, 0.5);
+  background: #fff;
 }
 .header__nav {
   margin-top: 36px;
@@ -102,4 +109,12 @@ button {
   border-bottom-color: white;
   margin-left: 100px;
   border-right-color: white;
+}
+
+.main-title {
+  margin: 41px 71px;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 24px;
+  color: #000;
 }/*# sourceMappingURL=main.css.map */
